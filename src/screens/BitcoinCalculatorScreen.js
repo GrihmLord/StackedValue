@@ -4,7 +4,7 @@ import BitcoinCalculator from '../components/BitcoinCalculator';
 
 const BitcoinCalculatorScreen = () => {
   return (
-    // Render the Bitcoin Calculator component here
+    <BitcoinCalculator /> // Render the Bitcoin Calculator component here
   );
 };
 

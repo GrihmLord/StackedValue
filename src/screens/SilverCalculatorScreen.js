@@ -4,7 +4,7 @@ import SilverCalculator from '../components/SilverCalculator';
 
 const SilverCalculatorScreen = () => {
   return (
-    // Render the Silver Calculator component here
+    <SilverCalculator /> // Render the Silver Calculator component here
   );
 };
 
