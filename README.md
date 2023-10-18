@@ -1,4 +1,4 @@
-# StackedValue App
+# StackedValue
 
 ## Overview
 
