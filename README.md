@@ -1,4 +1,4 @@
-# StackedValue
+# StackedValue - Mobile Financial Calculator
 
 ## Overview
 
@@ -14,7 +14,9 @@ The StackedValue app is a React Native-based mobile application that provides us
 
 - **Basic Styling:** The app has basic styling and layout for the Silver Calculator and Bitcoin Calculator screens. It uses React Native's `StyleSheet` for styling.
 
-- **API Integration (Placeholder):** Placeholder functions for fetching silver and Bitcoin prices from APIs have been implemented in `ApiService.js`. Actual API endpoints need to be provided.
+- **API Integration:** The app integrates with the following APIs for retrieving data:
+  - **Metals API:** Provides real-time silver prices.
+  - **Coin Market Cap API:** Provides real-time Bitcoin prices.
 
 - **Navigation:** Basic navigation between the Silver Calculator and Bitcoin Calculator screens has been set up using `React Navigation`.
 
@@ -74,7 +76,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [React Native](https://reactnative.dev/)
 - [React Navigation](https://reactnavigation.org/)
-- [Placeholder API Service](https://api.example.com) (Replace with actual API endpoints)
+- [Metals API](https://metals-api.com/) for real-time silver prices.
+- [Coin Market Cap API](https://coinmarketcap.com/api/) for real-time Bitcoin prices.
 
 ## Contact
 

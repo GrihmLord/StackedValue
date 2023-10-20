@@ -33,3 +33,11 @@ export const fetchSilverPrice = async () => {
       throw error; // Propagate the error to handle it in your components
     }
   };  
+
+// ApiService.js
+require('dotenv').config(); // Load environment variables
+
+const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
+const METALS_API_KEY = process.env.METALS_API_KEY;
+
+// Now you can use COINMARKETCAP_API_KEY and METALS_API_KEY in your API requests.
